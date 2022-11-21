@@ -1,0 +1,116 @@
+.main-div {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, rgb(10, 217, 151), rgb(13, 180, 172));
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 10%;
+  /* border: 2px solid red; */
+  width: 50%;
+}
+
+.note-input {
+  outline: none;
+  margin-left: 0px;
+  /* margin-right: 10px; */
+  /* width: 80%; */
+  /* border: 2px solid red; */
+  height: 30px;
+  width: 280px;
+  font-size: 22px;
+}
+
+.first-buttons {
+  /* margin: 0px; */
+  height: 40px;
+  width: 50px;
+  /* border: 2px solid red; */
+  margin-left: 20px;
+  background-color: rgba(30, 194, 30, 0.169);
+  color: white;
+}
+
+.first-buttons:hover {
+  background-color: Green;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* .showItems {
+  border: 2px solid red;
+} */
+
+.eachItem {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+}
+
+
+/* span {
+  width: 200px;
+  text-overflow: clip;
+} */
+.note {
+  /* border: 2px solid red; */
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.618);
+  color: white;
+  height: 35px;
+  font-size: 22px;
+  padding-right: 10px;
+  width: 260px;
+}
+
+.note:hover {
+  background-color: black;
+}
+
+.last-buttons {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.last-buttons :first-child {
+  /* background-color: rgb(127, 126, 126); */
+  /* color: aliceblue; */
+  /* width: 50px; */
+  cursor: pointer;
+  align-self: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.last-buttons :last-child {
+  /* background-color: rgb(174, 174, 174); */
+  color: aliceblue;
+  cursor: pointer;
+  align-self: center;
+  font-size: 30px;
+}
+
+.last-buttons :first-child:hover {
+  /* background-color: darkred; */
+  color: red;
+}
+
+.last-buttons :last-child:hover {
+  /* background-color: rgb(205, 180, 39); */
+  color: rgb(33, 247, 33);
+}
